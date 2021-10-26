@@ -1,0 +1,116 @@
+
+body{
+
+background: #1D1D1D url(pic/texture-noise@1x.png) repeat;
+margin: 0px    ;
+}
+.container{
+
+opacity: none;
+background-color: aqua;
+
+
+
+}
+
+@font-face {
+font-family:LOGO ;
+ src: url(font/overseer-webfont.woff);
+}
+.header{
+font-family: LOGO;
+text-align: center;
+}
+.header{
+font-size: 65px;
+margin: 0;
+}
+
+
+.p_hr_footer{
+margin: 0;
+
+text-align: center;
+color: rgb(255, 255, 255);
+
+}
+.nav.nav-pills.mb-3>li{
+font-size: 25px;
+
+}
+.column {
+    float: left;
+    padding: 10px;
+  }
+  .column.side {
+    width: 30%;
+    margin: 28px;
+  }
+
+  
+  .row{
+text-align:center;
+
+  }
+
+.hr1{
+margin: 0px ;
+
+}
+.hrid2{
+
+margin: top 0px;;
+border: 0;
+
+}
+.viewmore>a{
+
+  text-align: center;
+  margin-bottom:10px;
+
+
+}
+.tab-pane.fade{
+margin-bottom: 20px;
+
+
+}
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+
+.container1{
+font-family: 'Open Sans',sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 50vh;
+
+}
+form {
+color: rgb(192, 188, 212);
+background-color: rgb(25, 62, 92);
+border-radius: 5%;
+padding: 30px;
+margin: 30px;
+}
+.from-control{
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 20px;
+}
+
+.from-control input{
+display: block;
+
+}
+.from-control small{
+ visibility: hidden;
+
+}
+
